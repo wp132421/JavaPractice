@@ -4,7 +4,7 @@ package org.dimigo.basic;
  * The First Homework
  * @author Alfred Woo
  * @since Mar. 13th, 2015
- * @version 1.0
+ * @version 1.1
  */
 
 public class IUProfile {
