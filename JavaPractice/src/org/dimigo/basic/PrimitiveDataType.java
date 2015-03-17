@@ -7,7 +7,7 @@ package org.dimigo.basic;
  * @version 1.1
  */
 
-public class IUProfile {
+public class PrimitiveDataType {
 	public static void main(String[] args) {
 		boolean FEMALE = false;
 		boolean MALE = true;
