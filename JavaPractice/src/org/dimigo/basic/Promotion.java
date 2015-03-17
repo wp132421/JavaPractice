@@ -1,5 +1,11 @@
 package org.dimigo.basic;
 
+/**
+ * 
+ * @author 우준하
+ *
+ */
+
 public class Promotion {
 	public static void main(String[] args) {
 		int pay = 1700000;
