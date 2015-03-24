@@ -1,7 +1,12 @@
 package org.dimigo.basic;
 
-public class Condition {
+/**
+ * 
+ * @author 2421 Alfred Woo.
+ *
+ */
 
+public class Condition {
 	public static void main(String[] args) {
 		final int EXPRESS_BUS = 1;
 		final int LIGHT_CAR = 2;
