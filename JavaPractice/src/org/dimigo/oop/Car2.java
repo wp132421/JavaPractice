@@ -12,9 +12,6 @@ public class Car2 {
 	private String company, model, color;
 	private int maxSpeed, price;
 	
-	public Car2() {
-	}
-	
 	public Car2(String arg1, String arg2, String arg3, int arg4, int arg5) {
 		company = arg1;
 		model = arg2;
