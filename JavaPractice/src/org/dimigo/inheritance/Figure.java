@@ -19,4 +19,13 @@ public class Figure {
 	protected double calcArea() {
 		return 0.0;
 	}
+	
+	protected void printCenter() {
+		System.out.println(String.format("중심좌표 : (%d, %d)", centerX, centerY));
+	}
+	
+	protected void moveFigure(int x, int y) {
+		centerX += x;
+		centerY += y;
+	}
 }
