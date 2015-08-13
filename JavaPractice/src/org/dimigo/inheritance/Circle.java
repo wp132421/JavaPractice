@@ -24,4 +24,10 @@ public class Circle extends Figure {
 	protected double calcArea() {
 		return Math.pow(radius, 2) * Math.PI;
 	}
+	
+	@Override
+	protected void printCenter() {
+		System.out.print("원 ");
+		super.printCenter();
+	}
 }
