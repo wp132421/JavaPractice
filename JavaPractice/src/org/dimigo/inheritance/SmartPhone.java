@@ -35,10 +35,10 @@ public class SmartPhone {
 		System.out.println("로 결제합니다.");
 	}
 	
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone instanceof IPhone) {
+	public void useSpecialFunction() {
+		if(this instanceof IPhone) {
 			System.out.println("AirDrop 기능을 사용합니다.");
-		} else if(phone instanceof Galaxy) {
+		} else if(this instanceof Galaxy) {
 			System.out.println("무선 충전 기능을 이용합니다.");
 		}
 		

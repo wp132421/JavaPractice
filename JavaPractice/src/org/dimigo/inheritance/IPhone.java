@@ -25,7 +25,7 @@ public class IPhone extends SmartPhone {
 	}
 	
 	public void useAirDrop() {
-		super.useSpecialFunction(this);
+		super.useSpecialFunction();
 	}
 
 }

@@ -25,7 +25,7 @@ public class Galaxy extends SmartPhone {
 	}
 	
 	public void useWirelessCharging() {
-		super.useSpecialFunction(this);
+		super.useSpecialFunction();
 	}
 
 }
